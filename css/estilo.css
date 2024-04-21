@@ -31,7 +31,12 @@ h1,h2,h3,h4,h5{
 
 /*----------------Estilos Header------------------*/
 
-
+.yellowtail-regular {
+	font-family: "Yellowtail", cursive;
+	font-weight: 400;
+	font-style: normal;
+  }
+  
 .main-header{
     width: 100%;
 }
@@ -39,7 +44,7 @@ h1,h2,h3,h4,h5{
     font-size: 1.9em;
     color: #de423a;
     padding: 10px;
-    font-family: 'Sacramento', cursive;
+    font-family: 'Yellowtail', cursive;
         
 }
 .main-header__contactInfo__phone{
@@ -131,10 +136,10 @@ h1,h2,h3,h4,h5{
     
 }
 .menu__link:hover{
-     background-color: #DE423A;
+     background-color: rgb(236, 86, 119);
 }
 .menu__link--select{
-    background-color: #DE423A;
+    background-color: rgb(236, 86, 119);
     
 }
 .mostrar{
@@ -171,12 +176,13 @@ h1,h2,h3,h4,h5{
     transform: translateX(-50%) translateY(-50%);
     font-size: 1.5em;
     font-weight:bold;
+	font-family: "Lora" , serif;
     
 }
 
 /*----------------Estilos Principales------------------*/
 .group--color .container{
-	background-color: #DE423A;
+	background-color: rgb(236, 86, 119);
 	padding: 10px;
 	text-align: center;
 	
@@ -184,7 +190,13 @@ h1,h2,h3,h4,h5{
 .main__title{
 	margin: 15px 0;
 	font-size: 2.8em;
-	font-family: 'Sacramento',cursive;
+	font-family: 'Pacifico',cursive;
+}
+.main_txt{
+	font-family: 'Lora', serif;
+	font-style: oblique;
+	text-align: left;
+	font-size: 1.5em;
 	
 }
 .column__title{
@@ -199,7 +211,7 @@ h1,h2,h3,h4,h5{
 	text-align: center;
 	text-decoration: none;
 	width: 120px;
-	background: #DE423A;
+	background: rgb(236, 86, 119);
 	color: #fff;
 	padding:10px;
 	margin: 10px auto;
