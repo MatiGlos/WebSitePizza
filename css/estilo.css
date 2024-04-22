@@ -42,13 +42,13 @@ h1,h2,h3,h4,h5{
 }
 .logo{
     font-size: 1.9em;
-    color: #de423a;
+    color: rgb(236, 86, 119);
     padding: 10px;
     font-family: 'Yellowtail', cursive;
         
 }
 .main-header__contactInfo__phone{
-    background:#de423a;
+    background:rgb(236, 86, 119);
     color: #fff;
     padding: 10px;
     margin: 0;
@@ -106,9 +106,7 @@ h1,h2,h3,h4,h5{
 
 .social-icon__link{
     text-decoration: none;
-   
 }
-
 .menu{
     
     position: absolute;
@@ -199,6 +197,10 @@ h1,h2,h3,h4,h5{
 	font-size: 1.5em;
 	
 }
+.main_txt2{
+	padding-left: 100px;
+	padding-right: 100px;
+}
 .column__title{
 	font-size: 1.3em;
 }
@@ -212,7 +214,7 @@ h1,h2,h3,h4,h5{
 	text-decoration: none;
 	width: 120px;
 	background: rgb(236, 86, 119);
-	color: #fff;
+	color: #ffffff;
 	padding:10px;
 	margin: 10px auto;
 	
@@ -236,15 +238,15 @@ h1,h2,h3,h4,h5{
 .today-special .column {
 	margin-bottom: 30px;
 	text-align: center;
+	background-color: rgb(226, 188, 196);
 }
 
 .today-special__img{
-	margin: auto;
+	margin: 0;
 	max-width: 350px;
 }
 
 .today-special__tittle{
-	
 	font-size: 1.3em;
 	padding-top: 10px;
 	padding-bottom: 20px;
@@ -305,8 +307,10 @@ h1,h2,h3,h4,h5{
 	margin-top: 30px;
 }
 .form{
-	width: 100%;
+	width: 70%;
 	margin-top: 20px;
+	margin-right: 100px;
+	margin-left: 200px;
 }
 .form label{
 	color: #410649;
