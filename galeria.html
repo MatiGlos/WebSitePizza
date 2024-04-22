@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Contacto</title>
+    <title>Galeria</title>
     <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=2.0, minimum-scale=1.0">
     <link rel="icon" href="imagenes/icono_pagina.png">
     <link rel="stylesheet" href="css/estilo.css">
@@ -26,6 +26,7 @@
                 <p class="main-header__contactInfo__addres">
                     <span class="icon-location">Av Los Rios #650  Laja</span>
                 </p>
+                
             </div>
         </div>
     </header>
@@ -35,8 +36,8 @@
             <ul class="menu" id="menu">
                 <li class="menu__item"><a href="/" class="menu__link">Inicio</a></li>
                 <li class="menu__item"><a href="nosotros.html" class="menu__link">Nosotros</a></li>
-                <li class="menu__item"><a href="galeria.html" class="menu__link">Galería</a></li>
-                <li class="menu__item"><a href="contacto.html" class="menu__link menu__link--select">Contacto</a></li>
+                <li class="menu__item"><a href="galeria.html" class="menu__link menu__link--select">Galería</a></li>
+                <li class="menu__item"><a href="contacto.html" class="menu__link">Contacto</a></li>
             </ul>
             <div class="social-icon">
                 <a href="https://www.facebook.com/profile.php?id=100010477214628" class="social-icon__link"><span class="icon-facebook"></span></a>
@@ -46,22 +47,57 @@
         </div>
     </nav>
     <section class="banner">
-        <img src="imagenes/flor4.jpg" alt="" class="banner__img">
+        <img src="imagenes/flor7.jpg" alt="" class="banner__img">
     </section>
     <section class="group our-team">
-        <h2 class="group__galeria">¿Tienes alguna pregunta para nosotros?</h2>
-    </section>
-    <div class="form mensaje">
-        <label for="message">Escriba aquí su pregunta</label >
-        <textarea id="message" rows="8"></textarea>
-    </div>
-        <div class="col-12">
-            <button onclick="alert('Enviado')" type="submit" class="btn btn--contact" style="font-family: 'Advent Pro', sans-serif; font-size: 16px; border-radius: 8px;">Enviar</button>
+        <h2 class="group__galeria">Festividades</h2>
+        <div class="container container--flex">
+            <div class="column column--33">
+                <h3 class="our-team__title">Matrimonios</h3>
+                <img src="imagenes/matri.png" alt="" class="our-team__img">
+                <p class="our-team__txt"></p>
+            </div>
+            <div class="column column--33">
+                <h3 class="our-team__title">Aniversarios</h3>
+                <img src="imagenes/aniversario.jpg" alt="" class="our-team__img">
+                <p class="our-team__txt"></p>
+            </div>
+            <div class="column column--33">
+                <h3 class="our-team__title">Dias especiales</h3>
+                <img src="imagenes/especial.jpg" alt="" class="our-team__img">
+                <p class="our-team__txt"></p>
+            </div>
         </div>
-    </div >
-        <div>
-            <p class="mapa"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3175.068993920729!2d-72.7148015892762!3d-37.26979100302803!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x96698209846aeb41%3A0x210e535fa9ca66af!2zQXYuIExvcyBSw61vcyA2NTAsIExhamEsIELDrW8gQsOtbw!5e0!3m2!1ses-419!2scl!4v1713762059297!5m2!1ses-419!2scl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>  
+    </section>
+    <section class="group our-team">
+        <h2 class="group__galeria">Casuales</h2>
+        <div class="container container--flex">
+            <div class="column column--33">
+                <h3 class="our-team__title">Simple</h3>
+                <img src="imagenes/simple.jpg" alt="" class="our-team__img">
+                <p class="our-team__txt"></p>
+            </div>
+            <div class="column column--33">
+                <h3 class="our-team__title">Tradicional</h3>
+                <img src="imagenes/medio.jpg" alt="" class="our-team__img">
+                <p class="our-team__txt"></p>
+            </div>
+            <div class="column column--33">
+                <h3 class="our-team__title">Especial</h3>
+                <img src="imagenes/casual.jpg" alt="" class="our-team__img">
+                <p class="our-team__txt"></p>
+            </div>
+        </div>
+    </section>
+    <section class="group our-team">
+        <h2 class="group__galeria">Condolencia</h2>
+        <div class="container container--flex">
+            <div class="column column--33">
+                <h3 class="our-team__title column__center">Condolencia</h3>
+                <img src="imagenes/condolencia.jpg" alt="" class="our-team__img">
+                <p class="our-team__txt"></p>
+            </div>
+    </section>
     <footer class="main-footer">
         <div class="container container--flex">
             <div class="column column--33">
@@ -83,5 +119,4 @@
         </div>
     </footer>
     <script src="js/menu.js"></script>
-    
 </body>
